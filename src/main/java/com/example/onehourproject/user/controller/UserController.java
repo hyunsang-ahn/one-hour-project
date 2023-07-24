@@ -9,6 +9,6 @@ public class UserController {
 
     @GetMapping("/hello")
     public String getHello(){
-        return "hello hyunsang";
+        return "hello hyunsangddd";
     }
 }
