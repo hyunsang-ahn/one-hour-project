@@ -14,6 +14,7 @@ import javax.persistence.*;
 public class Member {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long index;
     private String id;
 
     private String name;
